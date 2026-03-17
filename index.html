@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Tyler Hintz | Data Analyst Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <div class="brand">
+      <div class="brand-text">
+        <strong>Tyler Hintz</strong>
+        <span>Data & Business Analytics</span>
+      </div>
+    </div>
+    <nav>
+      <a href="index.html" class="nav-link active">Home</a>
+      <a href="about.html" class="nav-link">About</a>
+      <a href="projects.html" class="nav-link">Projects</a>
+      <a href="contact.html" class="nav-link">Contact</a>
+      <a href="skills.html" class="nav-link">Skills</a>
+    </nav>
+  </header>
+
+  <div class="site-shell">
+    <main>
+      <section class="card">
+        <div style="
+          display: grid;
+          grid-template-columns: 1.4fr 1fr;
+          gap: 2rem;
+          align-items: center;
+          flex-wrap: wrap;
+        ">
+          <div>
+            <p style="font-size: 1rem; color: #6b6b6b; margin: 0;">Hello, I'm</p>
+            <h1 style="font-size: 2rem; margin: 0.2rem 0;">Tyler Hintz</h1>
+            <h2 style="font-size: 1.2rem; color: #3b82f6; margin-top: 0;">
+              Data & Business Analytics
+            </h2>
+
+            <p style="margin-top: 1rem; line-height: 1.6;">
+              I build clean, reliable data workflows and predictive models that help people make
+              better decisions. I focus on clarity, usability, and turning raw data into insights.
+            </p>
+
+            <div style="margin-top: 1.2rem; display: flex; gap: 1rem;">
+                <a href="projects.html" class="btn-primary">View Projects</a>
+                <a href="contact.html" class="btn-primary">Contact Me</a>
+              
+            </div>
+
+        </div>
+<div style="display: flex; justify-content: center;">
+    <img src="tylerphoto.jpeg" alt="Portrait of Tyler Hintz" style="
+      width: 200px;
+      height: 250px;
+      object-fit: fill;
+      border-radius: 12px;
+      border: 3px solid #3b82f6; /* neon accent */
+      box-shadow: 0 0 25px rgba(59, 130, 246, 0.5);
+    ">
+  </div>
+  
+        </div>
+
+      </section>
+
+      <aside class="card">
+        <h2 class="card-title">Skills</h2>
+        <p class="card-subtitle">Technical strengths</p>
+        <ul>
+          <li>SQL (MySQL)</li>
+          <li>Python (Pandas, NumPy, Matplotlib, Streamlit)</li>
+          <li>Excel (VLOOKUP, Pivot Tables, Conditional Formatting)</li>
+          <li>Power BI</li>
+        </ul>
+      </aside>
+
+    </main>
+</div>
+
+<footer>&copy; <span id="year"></span> Tyler Hintz</footer>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
