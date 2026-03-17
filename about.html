@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>About | Tyler Hintz</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <div class="brand">
+      <div class="brand-text">
+        <strong>Tyler Hintz</strong>
+        <span>Data & Business Analytics</span>
+      </div>
+    </div>
+    <nav>
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="about.html" class="nav-link active">About</a>
+      <a href="projects.html" class="nav-link">Projects</a>
+      <a href="contact.html" class="nav-link">Contact</a>
+      <a href="skills.html" class="nav-link">Skills</a>
+    </nav>
+  </header>
+
+  <div class="site-shell">
+    <main>
+      <section class="card">
+        <h1 class="card-title">About Me</h1>
+        <p class="card-subtitle">Student · Analyst · Problem Solver</p>
+
+        <p>
+          I’m a Computer Science student at Kent State University with a strong interest in
+          data analytics, predictive modeling, and business intelligence. I enjoy building
+          end‑to‑end solutions—from data collection to visualization.
+        </p>
+
+        <h2 class="card-title" style="margin-top: 1.4rem;">Education</h2>
+        <p class="card-subtitle">Kent State University · B.S. Computer Science</p>
+        <p>August 2024 – December 2027</p>
+
+        <h2 class="card-title" style="margin-top: 1.4rem;">What I Bring</h2>
+        <ul>
+          <li>Strong analytical and problem‑solving skills</li>
+          <li>Experience with SQL, Python, and BI tools</li>
+          <li>Clear communication and clean data storytelling</li>
+        </ul>
+      </section>
+
+      <aside class="card">
+        <h2 class="card-title">Work Experience</h2>
+        <p class="card-subtitle">Target · General Merchandise Expert</p>
+        <ul>
+          <li>Analyzed sales trends and inventory levels</li>
+          <li>Performed accuracy checks and audits</li>
+          <li>Developed strong operational and organizational skills</li>
+        </ul>
+      </aside>
+    </main>
+  </div>
+
+  <footer>&copy; <span id="year"></span> Tyler Hintz</footer>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

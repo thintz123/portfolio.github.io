@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Skills | Tyler Hintz</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <div class="brand">
+      <div class="brand-text">
+        <strong>Tyler Hintz</strong>
+        <span>Data & Business Analytics</span>
+      </div>
+    </div>
+    <nav>
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="about.html" class="nav-link">About</a>
+      <a href="projects.html" class="nav-link">Projects</a>
+      <a href="contact.html" class="nav-link">Contact</a>
+      <a href="skills.html" class="nav-link active">Skills</a>
+    </nav>
+  </header>
+
+  <div class="site-shell">
+    <main>
+      <section class="card">
+        <h1 class="card-title">Skills</h1>
+        <p class="card-subtitle">Technical and analytical strengths</p>
+
+        <h2 class="card-title" style="margin-top: 1.4rem;">Programming & Data</h2>
+        <ul>
+          <li><strong>Python:</strong> Pandas, NumPy, Matplotlib, Streamlit, yFinance</li>
+          <li><strong>SQL:</strong> MySQL (queries, joins, aggregations, ETL workflows)</li>
+          <li><strong>Data Cleaning & Transformation:</strong> feature engineering, preprocessing, aggregation</li>
+        </ul>
+
+        <h2 class="card-title" style="margin-top: 1.4rem;">Analytics & Visualization</h2>
+        <ul>
+          <li><strong>Power BI:</strong> dashboards, DAX basics, data modeling</li>
+          <li><strong>Excel:</strong> VLOOKUP, Pivot Tables, Conditional Formatting</li>
+          <li><strong>Streamlit:</strong> interactive dashboards and data apps</li>
+        </ul>
+
+        <h2 class="card-title" style="margin-top: 1.4rem;">Machine Learning</h2>
+        <ul>
+          <li>Model training & evaluation (XGBoost, regression, classification)</li>
+          <li>Feature engineering & performance metrics</li>
+          <li>Simulation & probability modeling</li>
+        </ul>
+
+        <h2 class="card-title" style="margin-top: 1.4rem;">Professional Skills</h2>
+        <ul>
+          <li>Problem‑solving and analytical thinking</li>
+          <li>Clear communication of technical results</li>
+          <li>Experience working in fast‑paced retail operations</li>
+          <li>Time management and attention to detail</li>
+        </ul>
+      </section>
+
+      <aside class="card">
+        <h2 class="card-title">Tools & Technologies</h2>
+        <ul>
+          <li>Python</li>
+          <li>MySQL</li>
+          <li>Power BI</li>
+          <li>Excel</li>
+          <li>GitHub</li>
+          <li>Streamlit</li>
+        </ul>
+
+        <h2 class="card-title" style="margin-top: 1.4rem;">Download</h2>
+        <ul>
+          <li><a href="Data Analyst Resume.pdf">Resume (PDF)</a></li>
+        </ul>
+      </aside>
+    </main>
+  </div>
+
+  <footer>&copy; <span id="year"></span> Tyler Hintz</footer>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

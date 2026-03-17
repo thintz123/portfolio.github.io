@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Projects | Tyler Hintz</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  
+  <body>
+    <header>
+      <div class="brand">
+        <div class="brand-text">
+          <strong>Tyler Hintz</strong>
+          <span>Data & Business Analytics</span>
+        </div>
+      </div>
+      <nav>
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="projects.html" class="nav-link active">Projects</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="skills.html" class="nav-link">Skills</a>
+      </nav>
+    </header>
+  
+    <div class="site-shell">
+      <main>
+        <section class="card">
+          <!-- PROJECT: Stock Analytics Pipeline Dashboard -->
+<div class="project-card" style="
+background: var(--bg-card);
+border: 1px solid var(--border);
+padding: 1.5rem;
+border-radius: 12px;
+margin-bottom: 1.5rem;
+">
+<h2 style="margin-top: 0; color: var(--text);">Stock Analytics Pipeline Dashboard</h2>
+<p style="color: var(--muted); line-height: 1.6;">
+  A full end-to-end data pipeline that collects, cleans, and analyzes stock market data.
+  Includes automated ETL workflows, feature engineering, and an interactive dashboard for
+  visualizing trends and performance metrics.
+</p>
+<a href="https://github.com/thintz123/Stock-Analytics-Pipeline-Dashboard" 
+   class="btn-primary" 
+   style="margin-top: 1rem; display: inline-block;">
+   View on GitHub
+</a>
+</div>
+
+<!-- PROJECT: NHL Win Probability Model -->
+<div class="project-card" style="
+background: var(--bg-card);
+border: 1px solid var(--border);
+padding: 1.5rem;
+border-radius: 12px;
+margin-bottom: 1.5rem;
+">
+<h2 style="margin-top: 0; color: var(--text);">NHL Win Probability Model</h2>
+<p style="color: var(--muted); line-height: 1.6;">
+  A machine learning model that predicts win probability for NHL games using historical
+  performance, team statistics, and real-time game factors. Includes data preprocessing,
+  model training, evaluation, and visualization.
+</p>
+<a href="https://github.com/thintz123/nhl_win_probability_model" 
+   class="btn-primary" 
+   style="margin-top: 1rem; display: inline-block;">
+   View on GitHub
+</a>
+</div>
+</div>
+        </section>
+  
+        <aside class="card">
+          <h2 class="card-title">Design Notes</h2>
+          <p class="card-subtitle">How I present projects</p>
+          <ul>
+            <li>Clear structure: overview → tools → impact</li>
+            <li>Readable summaries for recruiters</li>
+            <li>Consistent formatting across all projects</li>
+          </ul>
+        </aside>
+      </main>
+    </div>
+  
+    <footer>&copy; <span id="year"></span> Tyler Hintz</footer>
+    <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+  </body>
+  </html>
+  
